@@ -5,7 +5,7 @@ class Show < ActiveRecord::Base
     belongs_to :network
 
     def genre
-         genre = Genre.create(genre: Dramedy)
+         genre = Genre.create(genre: "Dramedy")
 
          self.genre = genre
          self.genre
