@@ -5,6 +5,7 @@ class Show < ActiveRecord::Base
     belongs_to :network
 
     def genre
+        binding.pry
         Show.genre
     end
 
