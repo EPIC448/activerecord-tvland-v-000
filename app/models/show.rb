@@ -6,7 +6,7 @@ class Show < ActiveRecord::Base
 
     def genre
         binding.pry
-         genre = Genre.create(genre: "Dramedy")
+        ##genre = Genre.create(genre: "Dramedy")
 
          self.genre = genre
          self.genre
